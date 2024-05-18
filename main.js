@@ -1,6 +1,6 @@
 // Create a Quiz
 
-// Answers for question (reminder)
+// Answers for question
 // 1. F-
 // 2. Molecular Compound
 // 3. Lead II chromate

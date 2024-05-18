@@ -1,0 +1,50 @@
+html {
+  background-color: rgb(132, 187, 221);
+}
+body {
+  width: 650px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  background-color: rgb(163, 203, 228);
+  border: 2px solid rgb(57, 134, 127);
+  text-align: center;
+}
+hr {
+  border: 2px solid rgb(92, 168, 159);
+}
+h1,h2 {
+  color: rgb(28, 88, 126);
+}
+.q-img {
+ width: 310px;
+border: 3px solid rgb(57, 134, 127);
+}
+#q6-img {
+  width: 250px;
+}
+#note-output,p,button {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.the-answer {
+  display: flex;
+}
+button {
+  color:rgb(28, 88, 126);
+  font-size: large;
+  background-color: rgb(163, 203, 228);
+  width: 150px;
+  height: 40px;
+  border: 2px solid rgb(57, 134, 127);
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#note-output {
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}

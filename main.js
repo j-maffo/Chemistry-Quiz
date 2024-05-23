@@ -3,7 +3,7 @@
 // Answers for question
 // 1. F-
 // 2. Molecular Compound
-// 3. Lead II chromate
+// 3. Lead (II) chromate
 // 4. Simple decomposition reactions
 // 5. Astatine, Bromine, Chlorine, Fluorine, Hydrogen, Iodine, Nitrogen and Oxygen.
 // 6. Magnesium, Calcium, Strontium, Barium, Iron, Lead II
@@ -44,7 +44,7 @@ function btnClicked() {
   // Answer strings
   let q1Ans = `f-`;
   let q2Ans = `molecular compound`;
-  let q3Ans = `lead ii chromate`;
+  let q3Ans = `lead (ii) chromate`;
   let q4Ans = `simple decomposition reactions`;
 
   let correct = `2px solid green`;
@@ -79,7 +79,7 @@ function btnClicked() {
   }
 
   // Question 3
-  if (q3Value.trim().toLowerCase() == q3Ans) {
+  if (q3Value.trim().toLowerCase() == q3Ans || q3Value.trim().toLowerCase() == `lead ii chromate`) {
     score++;
     q3InEl.style.border = correct;
     q3Mark.innerHTML =
